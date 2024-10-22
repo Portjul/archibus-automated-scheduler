@@ -2,9 +2,9 @@ name: Archibus-Automated-Scheduler
 
 on:
     workflow_dispatch:
-    # # uncomment to activate scheduler
-    # schedule:
-    #    - cron: "0 9 * * 1,2,3"
+    # uncomment to activate scheduler
+    schedule:
+        - cron: "0 9 * * 1,2,3"
     
 jobs:
   archibus-automated-scheduler:
